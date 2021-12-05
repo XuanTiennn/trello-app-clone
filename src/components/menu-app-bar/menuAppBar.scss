@@ -1,0 +1,20 @@
+@import '_setting';
+
+
+.menu-app-bar{
+    & > .menu-list{
+        @include flex;
+        &> .list-item{
+            color: $color-white;
+            margin:0 $gap;
+            font-size: $font-size-text;
+            cursor: pointer;
+            padding: $gap/2;
+            border-radius: $gap/2;
+            &:hover{
+                background-color: $color-grey;
+                transition: .3s;
+            }
+        }
+    }
+}

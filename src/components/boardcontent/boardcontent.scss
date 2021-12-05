@@ -1,1 +1,9 @@
-@import "_setting.scss";
+@import "_setting";
+
+.board-content{
+    background-color: $main-bg-color;
+    height: 87vh;
+    @include flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+}

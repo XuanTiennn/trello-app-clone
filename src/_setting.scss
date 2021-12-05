@@ -1,1 +1,37 @@
-@import "_setting.scss";
+//color/bg
+
+$color-white:#fff;
+$main-bg-color:#D29034;
+$color-grey:#c9a5a5;
+$color-scroll-bar:rgb(134, 132, 132);
+
+//gap
+$gap:10px;
+
+//height block
+// $app-bar-heigh:4vh;
+// $board-bar-heigh:4vh;
+// $board-content-heigh:86.5vh;
+
+
+//fontsize
+$font-size-text:16px;
+
+//flex
+@mixin  flex {
+    display: flex;
+
+}
+@mixin flex-column {
+    display: flex;
+    flex-direction: column;
+}
+@mixin  flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@mixin  flex-content-between {
+    display: flex;
+    justify-content: space-between;
+}

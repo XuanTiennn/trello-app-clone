@@ -1,0 +1,31 @@
+@import "_setting";
+
+$padding-search: 8px;
+$bg-input:#AB9577;
+
+
+.input-field {
+  @include flex-center;
+  color: $color-white;
+  ::placeholder{
+    color: $color-white;
+}
+  & > input {
+    padding: $padding-search $gap;
+    border-top-right-radius: $gap/2;
+    border-bottom-right-radius: $gap/2;
+    outline: none;
+    border: none;
+    background-color: $bg-input;
+  }
+  & > .input-icon {
+    background-color: $bg-input;
+    height: 100%;
+    @include flex-center;
+    padding: 0 $gap;
+    border-top-left-radius: $gap/2;
+    border-bottom-left-radius: $gap/2;
+  }
+}
+
+

@@ -1,1 +1,16 @@
-@import "_setting.scss";
+@import "_setting";
+
+$appbar-background:#734F1D;
+$font-size-title:24px;
+
+.app-bar{
+    background-color: $appbar-background;
+    padding: $gap;
+    @include flex-content-between;
+    // height: $app-bar-heigh;
+    &-title{
+        color: $color-white;
+        font-size: $font-size-title;
+
+    }
+}

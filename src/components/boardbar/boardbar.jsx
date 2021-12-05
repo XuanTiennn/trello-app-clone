@@ -7,8 +7,8 @@ Boardbar.propTypes = {
 
 function Boardbar(props) {
     return (
-        <div>
-            Boardbar
+        <div className="board-bar">
+            Boardbar 
         </div>
     );
 }
